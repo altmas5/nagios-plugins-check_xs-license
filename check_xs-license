@@ -49,7 +49,7 @@ def main(session, options):
     # create date object for finding difference in days
     expires_on = date(int(expires[0]), int(expires[1]), int(expires[2]))
     expire_days = (expires_on - date.today()).days
-    display = Template('XenServer License: $status | expire_days=%s' 
+    display = Template('XenServer License: $status - expire_days=%s' 
             %expire_days)
 
     if int(expire_days) > int(options.warning_days):
