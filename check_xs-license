@@ -33,7 +33,7 @@ import XenAPI
 
 __version__ = "1.2"
 __author__ = "Nick Anderson <nick@cmdln.org>"
-__website__ = "http://github.com/nickanderson/check_citrix_xenserver_license"
+__website__ = "https://github.com/nickanderson/nagios-plugins-check_xs-license"
 
 def main(session, options):
     """
